@@ -1,0 +1,777 @@
+            
+/*this block should go in the styles.css file*/
+.ui-panel-inner {
+        padding:0px; /*make the buttons flush edge to edge*/
+}
+.ui-controlgroup {
+	 margin:0; /*make the buttons flush to the top*/
+}
+#header {
+	height:54px;
+}
+#bars-button {
+ margin:7px;
+}
+
+
+
+
+.myMapText
+{
+font-weight:normal;
+color:#0d0dbd;
+letter-spacing:-1pt;
+word-spacing:2pt;
+font-size:12px;
+text-align:left;
+font-family:arial, helvetica, sans-serif;
+line-height:1;
+}
+
+
+
+.myMapGoogleText
+{
+font-weight:normal;
+color:#BD0D0D;
+letter-spacing:-1pt;
+word-spacing:2pt;
+font-size:12px;
+text-align:left;
+font-family:arial, helvetica, sans-serif;
+line-height:1;
+}
+
+
+
+
+/* Middle Button */
+
+
+.h1header {
+font-family:verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; 
+
+text-align: center;
+vertical-align: middle;
+font-size: 15px;
+font-weight: bold; 
+position:relative;
+margin-top:10px;
+margin-bottom:15px
+}
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:0px 0px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	background: url(../images/Emergency-04.png) 3px 5px no-repeat;
+	width: 82px;
+  	height: 80px;
+  
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* */
+.registerButton {
+  	
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.registerButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.registerButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*******  Scroller: KAMAL Footer Button *************/
+#wrapperHome {
+                        position:absolute;
+                        z-index:1;
+                      	top:40px;
+                        bottom:0px;
+                        left:0;
+                        width:100%;
+                        
+                        
+                        
+                        background: rgb(247,251,252); /* Old browsers */
+						background: -moz-linear-gradient(top, rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1))); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* IE10+ */
+						background: linear-gradient(to bottom, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+						                        
+                        overflow:auto;
+                  }
+                  
+
+/*******  Scroller: MAPS *************/
+#wrapperMAP {
+                        position:absolute;
+                        z-index:1;
+                      	top:0px;
+                        bottom:0px;
+                        left:0;
+                        width:100%;
+                        
+                        
+                        
+                        background: rgb(247,251,252); /* Old browsers */
+						background: -moz-linear-gradient(top, rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1))); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* IE10+ */
+						background: linear-gradient(to bottom, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+						                        
+                        overflow:auto;
+                  }
+                                    
+#wrapperPersonal {                 
+position:absolute;
+z-index:1;
+top:40px;
+bottom:0px;
+left:0;
+width:100%;
+
+
+
+ }                  
+
+#scroller {
+      position:absolute;
+                        z-index:1;
+                        -webkit-tap-highlight-color:rgba(0,0,0,0);
+                        width:100%;
+                        padding:0;
+    }
+
+/*******  Scroller: KAMAL Footer Button *************/
+
+
+/*******  Start: KAMAL Footer Button *************/
+
+.ui-icon-myapp-custom {
+    background: url(../images/Contact_Icon_128.png) no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+
+.button_personalInfo{
+  display: block;
+  width: 73px;
+  height: 60px;
+  background: url(../images/Contact_Icon_128.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_personalInfo:active {
+  -webkit-transform: scale3d(0.3, 0.4, 1);
+}
+
+
+
+.button_emergencyContact {
+  display: block;
+  width: 73px;
+  height: 60px;
+  background: url(../images/EmergencIcon-05.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_emergencyContact:active {
+  -webkit-transform: scale3d(0.3, 0.4, 1);
+}
+
+
+
+
+/*******  End : KAMAL Footer Button *************/
+
+.myappName
+{
+text-shadow:1px 1px 0 rgba(5,5,5,1);
+font-weight:bold;text-decoration:underline;
+font-variant:small-caps;
+color:#F5F5F5;
+letter-spacing:1pt;
+word-spacing:2pt;
+font-size:21px;
+text-align:center;
+font-family:arial, helvetica, sans-serif;
+line-height:1;
+}
+
+
+.circle_profilePics {
+  display: block;
+  background: url(../images/profileShadowpics.jpg) 3px 5px no-repeat;
+    
+  width: 100px;
+  height: 100px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+/******************   911 , GPS and Voice Main Page Button *********************** */
+.button_call911 {
+    background: url(../images/Emergency-04.png) 3px 5px no-repeat;
+    padding-left: 35px;
+    padding-right: 15px;
+    height: 98px;
+    width: 130px;
+    
+}
+
+.button_call911New {
+  display: block;
+  width: 89px;
+  height: 100px;
+  background: url(../images/Emergency-04.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+
+
+}
+.button_call911New:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+
+.button_SMS {
+  display: block;
+  width: 89px;
+  height: 100px;
+  background: url(../images/SMS-04.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+
+
+}
+.button_SMS:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+
+.button_myGpsNew {
+  display: block;
+  width: 98px;
+  height: 128px;
+  background: url(../images/GPS-03.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_myGpsNew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+.button_myGps {
+    background: url(../images/GPS-03.png) 0px 0px no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 118px;
+    width: 110px;
+}
+
+.button_myVoice {
+    background: url(../images/Voice-02.png) 0px 0px no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 118px;
+    width: 110px;
+}
+
+.button_myVoiceNew {
+  display: block;
+  width: 98px;
+  height: 128px;
+  background: url(../images/Voice-02.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_myVoiceNew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+/*   End of Main Page Button911 , GPS and Voice Main Page Button */
+
+
+
+
+
+/* Record and Pause and Play Button*/
+.button_RecordANew {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../images/record_A.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_RecordANew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+
+.button_StopNew {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../images/stop_A.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_StopNew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+
+
+.button_RecordA {
+    background: url(../images/record_A.png) 3px 5px no-repeat;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+.button_PauseANew {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../images/pause_A.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_PauseANew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+.button_PauseA {
+    background: url(../images/pause_A.png) 3px 5px no-repeat;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+
+.button_PlayANew {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../images/play_A.png) no-repeat;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.button_PlayANew:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+.button_PlayA {
+    background: url(../images/play_A.png) 3px 5px no-repeat;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/* Record and Pause and Play Button*/
+
+
+
+	.ui-wp-icon {
+	background-image: url(../images/contact.png) !important;
+	background-position: 14px 50%;
+    background-size: 126px 121px;
+    height: 214px;
+    margin-top: -12px !important;
+    width: 315px;
+	
+	}
+
+
+
+
+
+.button {
+    padding: 10px; 
+    margin-right: 8px;
+    margin-bottom:10px;
+    font-family: Arial, Tahoma, Verdana, FreeSans, sans-serif;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    white-space: nowrap;
+    line-height:1em;
+    position:relative;
+    outline: none;
+    overflow: visible;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius:4px; 
+    box-shadow:1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+}
+
+.button_about {
+    background: url(../images/Twitter.png) 3px 5px no-repeat;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.button_blue {
+    border: 1px solid #305875;
+    color: #FBFBFB;
+    background-color: #3D6E97;
+}
+.button_blue:hover {
+    color: #FBFBFB;
+    opacity:0.9; 
+    filter:alpha(opacity=90);        
+}
+
+
+
+
+/* First Box*/
+border-radius: 25px 25px 26px 25px;
+-moz-border-radius: 25px 25px 26px 25px;
+-webkit-border-radius: 25px 25px 26px 25px;
+border: 0px ridge #000000;
+
+
+
+
+
+
+/* RecordButtons */
+
+
+#containerRec{
+    width:10%;
+    margin:0 em 0;
+    padding:0 em;
+    background-color:hsla(360, 0%, 0%, 0.8);
+    border:1px #000 solid;
+}
+
+
+.buttonRec{
+    position:relative;   
+    border-radius:50%;
+    width:5em;
+    height:5em;
+   
+    margin:0 em;
+    display:inline-block;
+}
+
+.circleRec{
+    position:absolute;
+    top:5%;
+    left:5%;    
+    border-radius:50%;
+    width:50%;
+    height:50%;
+    display:block;
+    background-color:hsla(360, 80%, 50%, 0.8);
+    border:0;
+}
+
+
+.controlRec{
+    position:absolute;
+    top:21.5%;
+    left:21.5%;
+    width:15%;
+    height:15%;
+    display:block;
+    background-color:white;
+    box-shadow: inset 0px 1px 3px 0px black;
+}
+
+.stopRec{
+    border-radius:0%;
+}
+.recordRec{
+    border-radius:50%;
+}
+.pauseRec{
+    border-radius:0%;
+    background-color:transparent;
+    box-shadow:0 0 0 0 transparent;
+    border:0px #000 solid;
+    width:20%;
+
+}
+
+.barRec{
+    position:relative;
+    width:20%;
+    height:100%;
+    display:inline-block;
+    background-color:white;
+    box-shadow: inset 0px 1px 3px 0px black;
+    margin-bottom:0.25em;
+    padding:0;
+
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------
+== ICONS STYLES
+** ---------------------------------------------------------------------------------------------------------------------------- */
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link,
+li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover,
+li a:focus,
+li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before,
+li:after,
+li a:before,
+li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before,
+li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before,
+li a:focus:before,
+li a:active:before {
+    background:#730800;
+}
+
+/* Not links */
+
+.player,
+.headphones,
+.ribbon,
+.views,
+.location,
+.info,
+.help,
+.pie,
+.success,
+.success-alt,
+.warning,
+.denied {
+    padding-left:28px;
+}
+
+
+
+/* PLAY
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.play a:before {
+    width:16px;
+    height:16px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+}
+
+.play a:after {
+    left:7px;
+    border:4px solid transparent;
+    border-left-color:#fff;
+    margin-top:-4px;
+    background:transparent;
+}
+
+/* Alternative style */
+
+.play-alt a:before {
+    left:2px;
+    border:8px solid transparent;
+    border-width:8px 12px;
+    border-left-color:#c55500;
+    margin-top:-8px;
+    background:transparent;
+}
+
+.play-alt a:hover:before,
+.play-alt a:focus:before,
+.play-alt a:active:before {
+    border-left-color:#730800;
+    background:transparent;
+}
+
+/* STOP
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.stop a:before {
+    width:16px;
+    height:16px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+}
+
+.stop a:after {
+    left:5px;
+    width:6px;
+    height:6px;
+    margin-top:-3px;
+    background:#fff;
+}
+
+/* Alternative style */
+
+.stop-alt a:before {
+    left:1px;
+    width:14px;
+    height:14px;
+    margin-top:-7px;
+}
+
+/* PAUSE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.pause a:before {
+    width:16px;
+    height:16px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+}
+
+.pause a:after {
+    left:5px;
+    width:2px;
+    height:8px;
+    border:2px solid #fff;
+    border-width:0 2px;
+    margin-top:-4px;
+    background:transparent;
+}
+
+/* Alternative style */
+
+.pause-alt a:before {
+    left:2px;
+    width:4px;
+    height:14px;
+    border:4px solid #c55500;
+    border-width:0 4px;
+    margin-top:-7px;
+    background:transparent;
+}
+
+.pause-alt a:hover:before,
+.pause-alt a:focus:before,
+.pause-alt a:active:before {
+    border-color:#730800;
+    background:transparent;
+}
+
+
+
+
